@@ -1,0 +1,16 @@
+.sum-total {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sum-total-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.sum-total-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}

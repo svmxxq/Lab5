@@ -1,0 +1,58 @@
+.add-expense-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #007bff; /* изменен цвет рамки */
+    border-radius: 10px; /* увеличена радиус границы */
+    background-color: #f0f8ff; /* изменен цвет фона */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* добавлена тень */
+}
+
+.add-expense-form-title {
+    margin-bottom: 20px; /* увеличен отступ снизу */
+    font-size: 24px;
+    color: #007bff; /* изменен цвет текста */
+    text-align: center; /* выравнивание текста по центру */
+}
+
+.add-expense-form-input {
+    width: calc(100% - 16px); /* учтен padding в ширине */
+    margin-bottom: 20px; /* увеличен отступ снизу */
+    padding: 10px; /* увеличен padding */
+    font-size: 18px; /* увеличен размер шрифта */
+    border: 1px solid #007bff; /* изменен цвет рамки */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-expense-form-input:focus {
+    outline: none; /* убрано подчеркивание при фокусе */
+    border-color: #0056b3; /* изменен цвет рамки при фокусе */
+}
+
+.add-expense-form-button {
+    width: 100%;
+    padding: 12px; /* увеличен padding */
+    font-size: 18px; /* увеличен размер шрифта */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* добавлено плавное изменение цвета */
+}
+
+.add-expense-form-button:hover {
+    background-color: #0056b3; /* изменен цвет при наведении */
+}
+.add-expense-form-photo {
+    margin-bottom: 20px; /* увеличен отступ снизу */
+    text-align: center; /* выравнивание по центру */
+}
+
+.add-expense-form-photo-img {
+    max-width: 50%; /* установка максимальной ширины */
+    height: auto; /* автоматическая высота */
+    border-radius: 5px; /* добавляем скругленные углы */
+    border: 1px solid #007bff; /* изменен цвет рамки */
+}

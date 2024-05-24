@@ -1,0 +1,100 @@
+.show-list {
+    max-width: 800px; /* Увеличена максимальная ширина */
+    margin: 20px auto; /* Добавлен отступ сверху и снизу */
+    padding: 20px;
+}
+
+.show-list-title {
+    margin-bottom: 20px;
+    font-size: 28px; /* Увеличен размер шрифта */
+    color: #0271b7; /* Изменен цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.show-list-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.show-list-item {
+    margin-bottom: 20px; /* Увеличен отступ между элементами */
+    padding: 15px; /* Увеличен внутренний отступ */
+    border: 2px solid #007bff; /* Изменен цвет рамки */
+    border-radius: 10px; /* Увеличен радиус границы */
+    background-color: #f0f8ff; /* Изменен цвет фона */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease; /* Плавное изменение всех свойств */
+}
+
+.show-list-item:hover {
+    transform: translateY(-2px); /* Поднятие элемента при наведении */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени при наведении */
+}
+
+.expense-details {
+    display: flex;
+    align-items: center;
+}
+
+.expense-name {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+}
+
+.expense-amount {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.expense-date {
+    font-style: italic;
+    color: #666;
+}
+
+.delete-button {
+    padding: 8px 16px; /* Увеличен размер кнопки */
+    font-size: 16px; /* Увеличен размер шрифта */
+    background-color: #0271b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+}
+
+.delete-button:hover {
+    background-color: #0271b7;
+}
+.show-list-item {
+    /* ваш текущий CSS код */
+}
+
+.expense-photo {
+    max-width: 100px; /* задаем максимальную ширину изображения */
+    height: auto; /* автоматическая высота */
+}
+
+.expense-photo-img {
+    width: 100%; /* заполняем родительский блок по ширине */
+    height: 100%; /* заполняем родительский блок по высоте */
+    object-fit: cover; /* сохраняем пропорции и обрезаем изображение */
+    border-radius: 5px; /* добавляем скругленные углы */
+    border: 1px solid #ccc; /* добавляем рамку */
+}
+
+.show-list-item {
+    margin-bottom: 20px; /* Добавляем отступ между элементами списка */
+    padding: 15px; /* Увеличен внутренний отступ */
+    border: 2px solid #007bff; /* Изменен цвет рамки */
+    border-radius: 10px; /* Увеличен радиус границы */
+    background-color: #f0f8ff; /* Изменен цвет фона */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease; /* Плавное изменение всех свойств */
+}
+
